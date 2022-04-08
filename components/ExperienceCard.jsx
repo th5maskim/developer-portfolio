@@ -31,7 +31,7 @@ const ExperienceCard = ({ data }) => {
 						)}
 					</Color>
 					<CardBody className="py-5">
-						<div
+						{/* <div
 							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
 							style={{ width: "100px", height: "100px" }}
 						>
@@ -41,7 +41,7 @@ const ExperienceCard = ({ data }) => {
 								height={"100px"}
 								alt={data.companylogo}
 							/>
-						</div>
+						</div> */}
 						<CardTitle tag="h5">{data.role}</CardTitle>
 						<CardSubtitle>{data.date}</CardSubtitle>
 						<CardText tag="div" className="description my-3 text-left">

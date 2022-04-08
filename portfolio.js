@@ -1,25 +1,25 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Thomas Kim",
+	title: "Hi all, I'm Thomas",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+		"A Certified Full Stack Web Developer and Blockchain Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Web3js and some other cool libraries and frameworks and Decentralized Blockchain applications using Ethereum and Hyper ledger.",
 	resumeLink: "https://cv.hanzla.ga",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "th5maskim",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "https://www.facebook.com/th5maskim",
+	instagram: "https://www.instagram.com/th5maskim",
+	twitter: "https://twitter.com/th5maskim",
+	github: "https://github.com/th5maskim",
+	linkedin: "https://www.linkedin.com/in/thomas-kim-477b68236/",
 };
 
 export const skillsSection = {
@@ -29,6 +29,9 @@ export const skillsSection = {
 	skills: [
 		emoji(
 			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+		),
+		emoji(
+			"⚡ Decentralized Blockchain applications using Ethereum and Web3js"
 		),
 		emoji(
 			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
@@ -107,81 +110,74 @@ export const skillsSection = {
 			skillName: "docker",
 			fontAwesomeClassname: "logos:docker-icon",
 		},
+		{
+			skillName: 'solidity',
+			fontAwesomeClassname: "logos:solidity"
+		}
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
+		Stack: "Coding Languages", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
 	{
-		Stack: "Backend",
-		progressPercentage: "70",
+		Stack: "Smart Contract Development",
+		progressPercentage: "100",
 	},
 	{
-		Stack: "Programming",
-		progressPercentage: "60",
+		Stack: "Data Structures",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "Cryptography",
+		progressPercentage: "80",
+	},
+	{
+		Stack: "Web Development",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "Basic Architectures",
+		progressPercentage: "90",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Colorado Technical University",
+		subHeader: "Master's Degree Information Technology",
+		duration: "2011 ~ 2016",
+		desc: "",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
-	},
-	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
+	}
 ];
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
+		role: "Blockchain Developer",
+		company: "7PH Technologies, Inc",
 		companylogo: "/img/icons/common/google.svg",
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		date: "Jun 2020 – Feb 2022",
+		// desc: "Worked on the development and implementation of new blockchain technologies and completed professional market research.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Built and maintained strategic relationships with potential investors and business partners and brainstormed new ideas",
+			"Collaborated with colleagues from other departments and participated in the creation and testing of new software applications",
+			// "Represented the company at various workshops and industry events and executed multiple key clerical tasks",
+			// "Won the Employee of the Month Award once for finishing all assigned projects within budget and schedule"
 		],
 	},
 	{
-		role: "Front-End Developer",
-		company: "Github",
+		role: "Full Stack Developer",
+		company: "Almaty Healthcare, Inc",
 		companylogo: "/img/icons/common/github.svg",
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
-	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		date: "Sep 2016 - May 2020",
+		descBullets: [
+			"Performed initial client assessment analysis to begin the research process and supported the Chief Operating Officer",
+			"Defined the structure of the Blockchain Development for the Product team and defined the Access controls and security and environment",
+		],
 	},
 ];
 
@@ -206,12 +202,12 @@ export const projects = [
 
 export const feedbacks = [
 	{
-		name: "Hassan Mehmood",
+		name: "David Feinleib",
 		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Thomas Kim has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose Thomas web developer services for u.",
 	},
 	{
-		name: "Maheen Altaf",
+		name: "Mehmet Sabirli",
 		feedback:
 			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
 	},

@@ -19,33 +19,31 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Thomas Kim",
 					description:
-						"A passionate Full Stack Web Developer and Mobile App Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
+						"A Certified Full Stack developer and Blockchain Developer",
+					image: "https://avatars3.githubusercontent.com/u/61045360?v=4",
+					url: "https://th5maskim.netlify.app",
 					keywords: [
-						"Hanzla",
-						"Hanzla Tauqeer",
-						"@1hanzla100",
-						"1hanzla100",
+						"Thomas",
+						"Thomas Kim",
+						"@th5mas",
+						"th5maskim",
 						"Portfolio",
-						"Hanzla Portfolio ",
-						"Hanzla Tauqeer Portfolio",
+						"Thomas Portfolio ",
+						"Thomas Kim Portfolio",
 						"web developer",
 						"full stack",
 						"full stack web developer",
-						"mobile app developer",
-						"android developer",
-						"django",
-						"flask",
-						"django rest framework",
+						"blockchain developer",
+						"solidity",
+						"React",
+						"smart contract",
 						"nodejs ",
 						"expressjs",
 						"reactjs ",
 						"contextapi",
 						"redux",
-						"flutter",
 					],
 				}}
 			/>
@@ -56,7 +54,7 @@ export default function Home({ githubProfileData }) {
 			<Education />
 			<Experience />
 			<Feedbacks />
-			<Projects />
+			{/* <Projects /> */}
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);
