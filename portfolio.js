@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi all, I'm Thomas",
 	description:
 		"A Certified Full Stack Web Developer and Blockchain Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Web3js and some other cool libraries and frameworks and Decentralized Blockchain applications using Ethereum and Hyper ledger.",
-	resumeLink: "https://cv.hanzla.ga",
+	resumeLink: "https://drive.google.com/file/d/1UpWiNe1hPVkw6GnEMBE7DT11oox4VyyE/view?usp=sharing",
 };
 
 export const openSource = {
